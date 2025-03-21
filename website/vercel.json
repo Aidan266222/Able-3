@@ -1,0 +1,16 @@
+{
+    "builds": [
+      {
+        "src": "/*",
+        "use": "@vercel/static",
+        "config": { "strict": false }
+      }
+    ],
+    "build": {
+      "env": {
+        "NODE_ENV": "production",
+        "CI": "false",
+        "GENERATE_SOURCEMAP": "false"
+      }
+    }
+  }
